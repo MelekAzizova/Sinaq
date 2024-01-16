@@ -1,12 +1,21 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using PORTFOLIO.Contexts;
 
 namespace PORTFOLIO.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public HomeController(TempDbContext db)
         {
-            return View();
+            _db = db;
+        }
+
+        TempDbContext _db { get; }
+        public async Task<IActionResult> Index()
+        {
+            var data = await _db.Detals.ToListAsync();
+           return View(data);
         }
     }
 }

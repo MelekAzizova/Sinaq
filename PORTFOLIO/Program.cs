@@ -1,11 +1,15 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PORTFOLIO.Contexts;
+using PORTFOLIO.Helpers;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<TempDbContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("MSSql")));
+builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<TempDbContext>();
 
 var app = builder.Build();
 
@@ -17,6 +21,7 @@ if (!app.Environment.IsDevelopment())
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseAuthentication();
 
 app.UseAuthorization();
 app.MapControllerRoute(
@@ -27,6 +32,6 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-//   PathConstants.RootPath = builder.Environment.WebRootPath;
+PathConst.RootPath = builder.Environment.WebRootPath;
 
 app.Run();

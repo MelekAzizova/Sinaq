@@ -66,7 +66,7 @@ namespace PORTFOLIO.Areas.Admin.Controllers
             {
                 Name = data.Name,
                 Description = data.Description,
-                Image = data.Image
+               
             });
             
 
@@ -79,7 +79,7 @@ namespace PORTFOLIO.Areas.Admin.Controllers
             if (data == null) return NotFound();
             data.Name = vm.Name;
             data.Description = vm.Description;
-            data.Image = vm.Image;
+            data.Image = await vm.Image.SaveAsync(PathConst.Detal);
             await _db.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
 

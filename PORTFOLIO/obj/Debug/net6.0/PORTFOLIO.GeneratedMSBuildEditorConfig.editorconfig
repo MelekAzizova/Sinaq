@@ -9,55 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PORTFOLIO
 build_property.RootNamespace = PORTFOLIO
-build_property.ProjectDir = C:\Users\birinci novbe\Desktop\PORTFOLIO\
+build_property.ProjectDir = C:\Users\birinci novbe\Desktop\Sinaq1\PORTFOLIO\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\birinci novbe\Desktop\PORTFOLIO
+build_property.MSBuildProjectDirectory = C:\Users\birinci novbe\Desktop\Sinaq1\PORTFOLIO
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/birinci novbe/Desktop/PORTFOLIO/Areas/Admin/Views/Detal/Create.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/PORTFOLIO/Areas/Admin/Views/Detal/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGV0YWxcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/PORTFOLIO/Areas/Admin/Views/Detal/Index.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/PORTFOLIO/Areas/Admin/Views/Detal/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGV0YWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/PORTFOLIO/Areas/Admin/Views/Detal/Update.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/PORTFOLIO/Areas/Admin/Views/Detal/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGV0YWxcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/PORTFOLIO/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/PORTFOLIO/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/PORTFOLIO/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/PORTFOLIO/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/PORTFOLIO/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/PORTFOLIO/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/PORTFOLIO/Views/Home/Index.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/PORTFOLIO/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birinci novbe/Desktop/Sinaq1/PORTFOLIO/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birinci novbe/Desktop/Sinaq1/PORTFOLIO/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/PORTFOLIO/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/PORTFOLIO/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/PORTFOLIO/Views/_ViewImports.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/PORTFOLIO/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/PORTFOLIO/Views/_ViewStart.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/PORTFOLIO/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/PORTFOLIO/Views/Shared/_Layout.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/PORTFOLIO/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-pfa8xfar3i
