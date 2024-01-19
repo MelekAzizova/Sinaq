@@ -1,0 +1,37 @@
+﻿@model List<PositionListItemVM>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Position</h6>
+        <a href="~/Admin/Position/Create" class="btn btn-primary">Create</a>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th class="text-center">Id</th>
+                        <th class="text-center">Name</th>
+                        <th colspan="2" class="text-center">Actions</th>
+                        
+                    </tr>
+                </thead>
+                @foreach(var item in Model)
+                {
+                    <tbody>
+                        <td class="text-center">@item.Id</td>
+                        <td class="text-center">@item.Name</td>
+                        <td class="text-center"><a asp-action="Update" asp-controller="Position" asp-route-id="@item.Id" class="btn btn-primary">Update</a></td>
+                        <td class="text-center"><a asp-action="Delete" asp-controller="Position" asp-route-id="@item.Id" class="btn btn-primary">Delete</a></td>
+                    </tbody>
+                }
+
+            </table>
+        </div>
+    </div>
+</div>
+
+

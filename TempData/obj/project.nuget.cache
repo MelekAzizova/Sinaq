@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0jLcIS3A7dprvNYoL2MNSM9YmrI4XojK4otuNUJi30euhnEmPahJKXBYbgpWo5C+c8hHNocAOg6mr6QO01eY1A==",
+  "dgSpecHash": "wahexPuUKyj42mY1nTG0De97H620aNDr3pfEoyvQ/CTqXOxO65GAOUU3cOsGVm1znEJ4cLr19iEsp7+KbUVlzQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\birinci novbe\\Desktop\\TempData\\TempData.csproj",
+  "projectFilePath": "C:\\Users\\birinci novbe\\Desktop\\Sinaq1\\TempData\\TempData.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\birinci novbe\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\birinci novbe\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

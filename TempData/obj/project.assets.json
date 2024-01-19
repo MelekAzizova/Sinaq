@@ -10866,11 +10866,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\birinci novbe\\Desktop\\TempData\\TempData.csproj",
+      "projectUniqueName": "C:\\Users\\birinci novbe\\Desktop\\Sinaq1\\TempData\\TempData.csproj",
       "projectName": "TempData",
-      "projectPath": "C:\\Users\\birinci novbe\\Desktop\\TempData\\TempData.csproj",
+      "projectPath": "C:\\Users\\birinci novbe\\Desktop\\Sinaq1\\TempData\\TempData.csproj",
       "packagesPath": "C:\\Users\\birinci novbe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\birinci novbe\\Desktop\\TempData\\obj\\",
+      "outputPath": "C:\\Users\\birinci novbe\\Desktop\\Sinaq1\\TempData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\birinci novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",

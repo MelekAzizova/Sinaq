@@ -220,6 +220,53 @@ namespace TempData.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("TempData.Models.MediaTeam", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("MediaId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("SosialMediaId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TeamId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("SosialMediaId");
+
+                    b.HasIndex("TeamId");
+
+                    b.ToTable("MediaTeams");
+                });
+
+            modelBuilder.Entity("TempData.Models.SosialMedia", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Icon")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("SosialMedias");
+                });
+
             modelBuilder.Entity("TempData.Models.Team", b =>
                 {
                     b.Property<int>("Id")
@@ -290,6 +337,33 @@ namespace TempData.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("TempData.Models.MediaTeam", b =>
+                {
+                    b.HasOne("TempData.Models.SosialMedia", "SosialMedia")
+                        .WithMany("MediaTeams")
+                        .HasForeignKey("SosialMediaId");
+
+                    b.HasOne("TempData.Models.Team", "Team")
+                        .WithMany("MediaTeams")
+                        .HasForeignKey("TeamId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("SosialMedia");
+
+                    b.Navigation("Team");
+                });
+
+            modelBuilder.Entity("TempData.Models.SosialMedia", b =>
+                {
+                    b.Navigation("MediaTeams");
+                });
+
+            modelBuilder.Entity("TempData.Models.Team", b =>
+                {
+                    b.Navigation("MediaTeams");
                 });
 #pragma warning restore 612, 618
         }

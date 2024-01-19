@@ -1,0 +1,20 @@
+﻿@model SMCreateVM
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control"  placeholder="Enter name">
+        <span asp-validation-for="Name" class="form-text text-muted"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Icon"></label>
+        <input asp-for="Icon" class="form-control" placeholder="Enter photo">
+        <span asp-validation-for="Icon" class="form-text text-muted"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+

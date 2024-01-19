@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting;
 using TempData.Models;
 
 namespace TempData.Contexts
@@ -11,5 +12,10 @@ namespace TempData.Contexts
             
         }
         public DbSet<Team> Teams { get; set; }
+        public DbSet<SosialMedia> SosialMedias { get; set; }
+        public DbSet<MediaTeam> MediaTeams { get; set; }
+
+       
+
     }
 }

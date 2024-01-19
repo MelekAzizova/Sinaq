@@ -9,63 +9,75 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TempData
 build_property.RootNamespace = TempData
-build_property.ProjectDir = C:\Users\birinci novbe\Desktop\TempData\
+build_property.ProjectDir = C:\Users\birinci novbe\Desktop\Sinaq1\TempData\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\birinci novbe\Desktop\TempData
+build_property.MSBuildProjectDirectory = C:\Users\birinci novbe\Desktop\Sinaq1\TempData
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/birinci novbe/Desktop/TempData/Areas/Admin/Views/Shared/_Layout.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/TempData/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/TempData/Areas/Admin/Views/Team/Create.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/TempData/Areas/Admin/Views/SosialMedia/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU29zaWFsTWVkaWFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birinci novbe/Desktop/Sinaq1/TempData/Areas/Admin/Views/SosialMedia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU29zaWFsTWVkaWFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birinci novbe/Desktop/Sinaq1/TempData/Areas/Admin/Views/SosialMedia/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU29zaWFsTWVkaWFcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/birinci novbe/Desktop/Sinaq1/TempData/Areas/Admin/Views/Team/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVhbVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/TempData/Areas/Admin/Views/Team/Index.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/TempData/Areas/Admin/Views/Team/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVhbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/TempData/Areas/Admin/Views/Team/Update.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/TempData/Areas/Admin/Views/Team/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVhbVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/TempData/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/TempData/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/TempData/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/TempData/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/TempData/Views/Auth/Login.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/TempData/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/TempData/Views/Auth/Register.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/TempData/Views/Auth/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/TempData/Views/Home/Index.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/TempData/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/TempData/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/TempData/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/TempData/Views/_ViewImports.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/TempData/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/TempData/Views/_ViewStart.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/TempData/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/birinci novbe/Desktop/TempData/Views/Shared/_Layout.cshtml]
+[C:/Users/birinci novbe/Desktop/Sinaq1/TempData/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-sojijmbjm5
